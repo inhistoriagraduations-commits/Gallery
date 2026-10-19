@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" class="w-full h-full">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E05E" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2430" />
+      <stop offset="100%" stop-color="#0F1117" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring with Gold Accent -->
+  <circle cx="50" cy="50" r="46" stroke="url(#goldGrad)" stroke-width="2.5" opacity="0.85" />
+  <circle cx="50" cy="50" r="42" stroke="#ffffff" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.3" />
+  
+  <!-- Lens Body -->
+  <circle cx="50" cy="50" r="38" fill="url(#lensGrad)" />
+  
+  <!-- Aperture Blades -->
+  <path d="M50 20 L66 38 L54 44 Z" fill="url(#goldGrad)" opacity="0.85" />
+  <path d="M76 36 L76 58 L64 52 Z" fill="url(#goldGrad)" opacity="0.75" />
+  <path d="M78 64 L58 76 L58 64 Z" fill="url(#goldGrad)" opacity="0.85" />
+  <path d="M50 80 L34 62 L46 56 Z" fill="url(#goldGrad)" opacity="0.75" />
+  <path d="M24 64 L24 42 L36 48 Z" fill="url(#goldGrad)" opacity="0.85" />
+  <path d="M22 36 L42 24 L42 36 Z" fill="url(#goldGrad)" opacity="0.75" />
+  
+  <!-- Center Core / Focus Point -->
+  <circle cx="50" cy="50" r="14" fill="#0C0E14" stroke="url(#goldGrad)" stroke-width="1.5" />
+  
+  <!-- Letter 'i' Monogram Stylized -->
+  <circle cx="50" cy="43.5" r="2.2" fill="#FFFFFF" />
+  <rect x="48.5" y="48.5" width="3" height="8" rx="1.5" fill="#FFFFFF" />
+</svg>

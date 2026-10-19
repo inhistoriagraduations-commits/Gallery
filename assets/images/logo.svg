@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none" class="w-full h-full">
+  <defs>
+    <linearGradient id="goldGradFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E05E" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+    <linearGradient id="lensGradFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2430" />
+      <stop offset="100%" stop-color="#0F1117" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon Mark -->
+  <g transform="translate(4, 4)">
+    <circle cx="26" cy="26" r="25" stroke="url(#goldGradFull)" stroke-width="1.8" opacity="0.9" />
+    <circle cx="26" cy="26" r="22" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.4" />
+    <circle cx="26" cy="26" r="20" fill="url(#lensGradFull)" />
+    
+    <!-- Aperture Petals -->
+    <path d="M26 10 L35 20 L28 23 Z" fill="url(#goldGradFull)" opacity="0.85" />
+    <path d="M40 19 L40 31 L33 28 Z" fill="url(#goldGradFull)" opacity="0.75" />
+    <path d="M41 34 L30 41 L30 34 Z" fill="url(#goldGradFull)" opacity="0.85" />
+    <path d="M26 42 L17 32 L24 29 Z" fill="url(#goldGradFull)" opacity="0.75" />
+    <path d="M12 33 L12 21 L19 24 Z" fill="url(#goldGradFull)" opacity="0.85" />
+    <path d="M11 18 L22 12 L22 19 Z" fill="url(#goldGradFull)" opacity="0.75" />
+    
+    <circle cx="26" cy="26" r="8" fill="#0C0E14" stroke="url(#goldGradFull)" stroke-width="1" />
+    <circle cx="26" cy="22" r="1.4" fill="#FFFFFF" />
+    <rect x="25.1" y="25" width="1.8" height="5" rx="0.9" fill="#FFFFFF" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(68, 12)">
+    <!-- INHISTORIA Text -->
+    <text x="0" y="22" font-family="'Playfair Display', Georgia, serif" font-size="21" font-weight="700" letter-spacing="3" fill="#FFFFFF">
+      INHISTORIA
+    </text>
+    <!-- Subtitle -->
+    <text x="1" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="600" letter-spacing="4.5" fill="#D4AF37">
+      PHOTOGRAPHY STUDIO
+    </text>
+  </g>
+</svg>
